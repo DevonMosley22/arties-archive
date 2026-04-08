@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Art Resource Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>🎨 Art Resource Hub</h1>
+    <p>Simple, curated resources for beginner artists</p>
+</header>
+
+<nav>
+    <button onclick="showSection('palettes')">Color Palettes</button>
+    <button onclick="showSection('anatomy')">Anatomy & Poses</button>
+    <button onclick="showSection('tutorials')">Tutorials</button>
+</nav>
+
+<main>
+
+    <!-- COLOR PALETTES -->
+    <section id="palettes" class="content-section">
+        <h2>Color Palettes</h2>
+
+        <div class="card">
+            <h3>Warm Sunset Palette</h3>
+            <p>#FF6B6B, #FFD93D, #FF9F1C</p>
+        </div>
+
+        <div class="card">
+            <h3>Cool Ocean Palette</h3>
+            <p>#1E3D59, #4F6D7A, #A7C4BC</p>
+        </div>
+
+    </section>
+
+    <!-- ANATOMY -->
+    <section id="anatomy" class="content-section hidden">
+        <h2>Anatomy & Pose References</h2>
+
+        <div class="card">
+            <h3>Quick Pose Practice</h3>
+            <a href="#">Visit Resource</a>
+        </div>
+
+        <div class="card">
+            <h3>Basic Human Proportions</h3>
+            <a href="#">Visit Resource</a>
+        </div>
+
+    </section>
+
+    <!-- TUTORIALS -->
+    <section id="tutorials" class="content-section hidden">
+        <h2>Art Tutorials</h2>
+
+        <div class="card">
+            <h3>Beginner Drawing Guide (YouTube)</h3>
+            <a href="#">Watch Tutorial</a>
+        </div>
+
+        <div class="card">
+            <h3>Shading Basics (Instagram)</h3>
+            <a href="#">View Post</a>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>Made for beginner artists ✨</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
